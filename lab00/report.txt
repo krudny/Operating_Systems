@@ -1,0 +1,8 @@
+Zadanie 7
+Debugger uruchamiamy poleceniem gdb countdown
+Ustawiamy breakpoint za pomocą polecenia: break 4
+Uruchamiamy program za pomocą polecenia: run
+Następnie wyświetlamy wartość zmiennej i za pomocą polecenia: print i
+Kontynuujemy program za pomocą polecenia: continue
+Usuwamy breakpoint za pomocą polecenia: delete 1
+Wychodzimy z debbugera za pomocą polecenia: quit
