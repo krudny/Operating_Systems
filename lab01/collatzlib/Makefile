@@ -11,7 +11,6 @@ collatz_shared: collatz.c
 	$(CC) -fPIC -o $(BUILD_DIR)/$@.o -c $<
 	$(CC) -shared -o $(BUILD_DIR)/lib$@.so $(BUILD_DIR)/$@.o
 
-
 clean:
 	rm -rf $(BUILD_DIR)
 
